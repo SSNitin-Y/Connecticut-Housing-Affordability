@@ -1,0 +1,11 @@
+# Virtual envs / caches
+.venv/
+__pycache__/
+*.pyc
+
+# OS / editor noise
+.DS_Store
+.vscode/
+
+# Logs
+run.log
