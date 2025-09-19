@@ -1,0 +1,1 @@
+Keep notebooks thin; call functions in src/.

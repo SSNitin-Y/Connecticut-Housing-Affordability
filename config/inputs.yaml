@@ -1,0 +1,20 @@
+defaults:
+  down_payment_pct: 0.10
+  interest_rate_apy: 0.065
+  term_years: 30
+  closing_cost_pct: 0.03
+  property_tax_rate: 0.012
+  insurance_annual_usd: 1500
+  hoa_monthly_usd_sfh: 0
+  hoa_monthly_usd_condo: 250
+  dti_frontend_max: 0.28
+  dti_backend_max: 0.36
+  min_sales_per_month: 10
+  smoothing_window_months: 3
+filters:
+  property_types: ["SFH","Condo","Both"]
+  include_towns: []
+  exclude_towns: []
+time_window:
+  use_latest_only: true
+  months_back_for_trend: 36
