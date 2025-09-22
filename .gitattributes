@@ -1,5 +1,20 @@
+# --- Large files via Git LFS ---
+*.csv        filter=lfs diff=lfs merge=lfs -text
+*.parquet    filter=lfs diff=lfs merge=lfs -text
+*.zip        filter=lfs diff=lfs merge=lfs -text
+data/raw/**        filter=lfs diff=lfs merge=lfs -text
+data/clean/**      filter=lfs diff=lfs merge=lfs -text
+data/analytics/**  filter=lfs diff=lfs merge=lfs -text
+
+# --- GitHub Linguist: keep language stats focused on code ---
+docs/**       linguist-documentation
+reports/**    linguist-generated
+# optional: if you have web assets outside docs/
+*.css         linguist-vendored
+*.js          linguist-vendored
 *.csv filter=lfs diff=lfs merge=lfs -text
 *.parquet filter=lfs diff=lfs merge=lfs -text
 *.zip filter=lfs diff=lfs merge=lfs -text
 data/raw/** filter=lfs diff=lfs merge=lfs -text
 data/clean/** filter=lfs diff=lfs merge=lfs -text
+data/analytics/** filter=lfs diff=lfs merge=lfs -text
