@@ -9,3 +9,4 @@ __pycache__/
 
 # Logs
 run.log
+.DS_Store
